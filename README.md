@@ -1,8 +1,7 @@
 # try-elm
 
 1. [Install Elm](http://elm-lang.org/install).
-2. Enter code in `SignupForm.elm`.
-3. Run `elm-package install elm-lang/html` to create `elm-package.json` and
-   `elm-stuff/` with necessary packages.
-4. Run `elm-make SignupForm.elm --output elm.js` to create `elm.js`.
-5. Run `open index.html` and test validations in browser.
+2. `elm-package install elm-lang/html --yes`
+3. `elm-package install evancz/elm-http --yes`
+4. `elm-make SignupForm.elm --output elm.js`
+5. `open index.html`
